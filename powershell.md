@@ -16,6 +16,9 @@ Where `<hashalgo>` can be one of;
 * SHA384
 * SHA512
 
+## Get HASH of every file in directory
+`for %F in (*) do @certutil -hashfile "%F"`
+
 ## Get password from app pool
 ```
 cd C:\Windows\System32\inetsrv
